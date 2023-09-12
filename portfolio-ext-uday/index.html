@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/dfe65f3da9.js" crossorigin="anonymous"></script>
+    <title>Uday Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="/main.js" defer></script>
+</head>
+<body>
+    <header class="header">
+        <h1 class="header__title">Uday Singh</h1>
+        <div class="header__social-icons">
+            <a href="https://www.linkedin.com/in/uday-singh-8a5093252/" target="_blank" class="social-icon">
+                <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="mailto:voorbeeld@email.com" class="social-icon">
+                <i class="fas fa-envelope"></i>
+            </a>
+            <a href="https://github.com/Uday-Singh1" target="_blank" class="social-icon">
+                <i class="fab fa-github"></i>
+            </a>
+        </div>
+        <button class="header__button header__button--projects">Mijn Projecten</button>
+        <button class="header__button header__button--about">Over Mij</button>
+        <button class="header__button header__button--contact">Contact</button>
+        <button class="header__button header__button--language" id="language-toggle">Taal</button>
+    </header>
+    
+
+    <section class="section section--projects">
+        <article class="project">
+            <img src="/img/youtube-dark2.png" alt="Project 1" class="project__image">
+            <div class="project__info">
+                <h2 class="project__title">
+                    Yubtub
+                    <a href="https://github.com/Uday-Singh1/Yubtub-frontend-m8" target="_blank" class="github-icon">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </h2>
+                <p class="project__description">Dit is een voorbeeldproject.</p>
+            </div>
+        </article>
+    
+  
+    
+    
+        <article class="project">
+            <img src="/img/udemy.webp" alt="Project 2" class="project__image">
+            <div class="project__info">
+                <h2 class="project__title">Udemy-Clone
+                    <a href="https://github.com/Uday-Singh1/Yubtub-frontend-m8" target="_blank" class="github-icon">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </h2>
+                <p class="project__description">Dit is een voorbeeldproject.</p>
+            </div>
+        </article>
+    
+        <article class="project">
+            <img src="/img/youtube-dark.webp" alt="Project 3" class="project__image">
+            <div class="project__info">
+                <h2 class="project__title">
+                    ColorPicker
+                    <a href="https://github.com/Uday-Singh1/Colorpicker" target="_blank" class="github-icon">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </h2>
+                <p class="project__description">Dit is een voorbeeldproject.</p>
+            </div>
+        </article>
+
+  
+        <!-- Voeg meer projecten toe zoals hierboven -->
+    
+        <button class="view-more">Bekijk Meer</button>
+    </section>
+    
+    
+
+    <section class="section section--about">
+        <div class="about">
+            <img src="/img/youtube-dark.webp" alt="Jouw profielfoto" class="about__image">
+            <h2 class="about__title">Over Mij</h2>
+            <p class="about__description">
+                Ik ben een gepassioneerde webontwikkelaar met meer dan 5 jaar ervaring in het bouwen van boeiende en responsieve websites. Mijn expertise omvat HTML, CSS, JavaScript en andere moderne webtechnologieën.
+            </p>
+        </div>
+    </section>
+    
+    <section class="section section--contact">
+     
+        <form class="contact-form">
+            <h2 class="contact-form__title">Neem Contact Op</h2>
+            <label for="naam" class="contact-form__label">Naam:</label>
+            <input type="text" id="naam" name="naam" class="contact-form__input" required>
+    
+            <label for="email" class="contact-form__label">E-mail:</label>
+            <input type="email" id="email" name="email" class="contact-form__input" required>
+    
+            <label for="bericht" class="contact-form__label">Bericht:</label>
+            <textarea id="bericht" name="bericht" rows="4" class="contact-form__textarea" required></textarea>
+    
+            <button type="submit" class="contact-form__button">Verzenden</button>
+        </form>
+    </section>
+    
+    <button id="scroll-to-top" class="scroll-to-top">↑</button>
+
+    
+    <footer class="footer">
+        <div class="social-icons">
+            <a href="https://www.linkedin.com/in/jouw-linkedin" target="_blank" class="social-icon">
+                <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="mailto:voorbeeld@email.com" class="social-icon">
+                <i class="fas fa-envelope"></i>
+            </a>
+            <a href="https://github.com/jouw-gebruikersnaam" target="_blank" class="social-icon">
+                <i class="fab fa-github"></i>
+            </a>
+        </div>
+  
+    </footer>
+    
+    
+</body>
+</html>
