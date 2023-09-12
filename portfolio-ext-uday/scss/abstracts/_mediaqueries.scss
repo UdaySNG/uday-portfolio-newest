@@ -1,0 +1,23 @@
+/* Responsieve stijlen */
+@media (max-width: 768px) {
+    .social-icons {
+        font-size: 1.5rem;
+    }
+
+    .header__title {
+        font-size: 1.5rem;
+    }
+    .header__social-icons {
+        font-size: 2rem;
+    }
+
+    .contact-form {
+        max-width: 90%;
+    }
+
+    .project {
+        width: calc(50% - 1rem);
+    }
+}
+
+

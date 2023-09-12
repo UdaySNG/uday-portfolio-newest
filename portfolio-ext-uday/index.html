@@ -4,8 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/dfe65f3da9.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+          
     <title>Uday Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/css/style.css">
     <script src="/main.js" defer></script>
 </head>
 <body>
@@ -28,7 +30,7 @@
         <button class="header__button header__button--language" id="language-toggle">Taal</button>
     </header>
     
-
+    <main class="main">
     <section class="section section--projects">
         <article class="project">
             <img src="/img/youtube-dark2.png" alt="Project 1" class="project__image">
@@ -39,7 +41,7 @@
                         <i class="fab fa-github"></i>
                     </a>
                 </h2>
-                <p class="project__description">Dit is een voorbeeldproject.</p>
+                <p class="project__description">Hier had ik een youtube clone gemaakt met de huiststyle van de Twitch streaming platform.</p>
             </div>
         </article>
     
@@ -54,12 +56,12 @@
                         <i class="fab fa-github"></i>
                     </a>
                 </h2>
-                <p class="project__description">Dit is een voorbeeldproject.</p>
+                <p class="project__description">In dit project had ik de voorpagina van populaire cursus website Udemy nagemaakt in html&css en js.</p>
             </div>
         </article>
     
         <article class="project">
-            <img src="/img/youtube-dark.webp" alt="Project 3" class="project__image">
+            <img src="/img/colorpick.webp" alt="Project 3" class="project__image">
             <div class="project__info">
                 <h2 class="project__title">
                     ColorPicker
@@ -67,7 +69,7 @@
                         <i class="fab fa-github"></i>
                     </a>
                 </h2>
-                <p class="project__description">Dit is een voorbeeldproject.</p>
+                <p class="project__description">Hier nam ik inspiratie van mijn favoriete kleuren website, Colorhunt dus ik had mijn eigen colorpicker gemaakt.</p>
             </div>
         </article>
 
@@ -81,13 +83,53 @@
 
     <section class="section section--about">
         <div class="about">
-            <img src="/img/youtube-dark.webp" alt="Jouw profielfoto" class="about__image">
+            <img src="/img/uday-pfp.jpg" alt="Jouw profielfoto" class="about__image">
             <h2 class="about__title">Over Mij</h2>
             <p class="about__description">
-                Ik ben een gepassioneerde webontwikkelaar met meer dan 5 jaar ervaring in het bouwen van boeiende en responsieve websites. Mijn expertise omvat HTML, CSS, JavaScript en andere moderne webtechnologieën.
+                Ik ben een gepassioneerde softwareontwikelaar. Mijn expertise omvat HTML, CSS, JavaScript en andere moderne webtechnologieën.
             </p>
         </div>
     </section>
+
+    <section class="section section--skills">
+        <article class="skill-card">
+            <h3 class="skill-card__title">HTML</h3>
+            <i class="fa-brands fa-html5  skill-card__icon"></i>
+            <p class="skill-card__description">Beschrijving van HTML-vaardigheid.</p>
+        </article>
+    
+        <article class="skill-card">
+            <h3 class="skill-card__title">CSS</h3>
+            <i class="fab fa-css3 skill-card__icon"></i>
+            <p class="skill-card__description">Beschrijving van CSS-vaardigheid.</p>
+        </article>
+    
+        <article class="skill-card">
+            <h3 class="skill-card__title">SCSS</h3>
+            <i class="fa-brands fa-sass  skill-card__icon"></i>
+            <p class="skill-card__description">Beschrijving van SCSS-vaardigheid.</p>
+        </article>
+    
+        <article class="skill-card">
+            <h3 class="skill-card__title">JavaScript</h3>
+            <i class="fa-brands fa-js  skill-card__icon"></i>
+            <p class="skill-card__description">Beschrijving van JavaScript-vaardigheid.</p>
+        </article>
+    
+        <article class="skill-card">
+            <h3 class="skill-card__title">Adobe XD</h3>
+            <i class="devicon-xd-plain  skill-card__icon"></i>
+            <p class="skill-card__description">Beschrijving van Adobe XD-vaardigheid.</p>
+        </article>
+    
+        <article class="skill-card">
+            <h3 class="skill-card__title">After Effects</h3>
+            <i class="devicon-aftereffects-plain  skill-card__icon"></i>
+            <p class="skill-card__description">Beschrijving van andere vaardigheid.</p>
+        </article>
+    </section>
+    
+    
     
     <section class="section section--contact">
      
@@ -108,6 +150,7 @@
     
     <button id="scroll-to-top" class="scroll-to-top">↑</button>
 
+</main>
     
     <footer class="footer">
         <div class="social-icons">
