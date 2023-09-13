@@ -74,6 +74,9 @@ window.addEventListener("load", () => {
 });
 
 
+
+
+
 class ScrollToTopButton {
     constructor() {
         this.button = document.getElementById("scroll-to-top");
