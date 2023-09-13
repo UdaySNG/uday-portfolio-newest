@@ -33,14 +33,33 @@ body{
 
 
 .header__button {
-    background-color: #007BFF;
-    color: #fff;
+    position: relative; /* Zorg ervoor dat het pseudo-element relatief is aan de knop */
+    padding: 10px 20px;
+    background-color: transparent;
     border: none;
-    border-radius: 5px;
-    padding: 0.5rem 1rem;
-    font-size: 2.1rem;
-    margin: 0.5rem;
     cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    text-transform: uppercase;
+}
+
+/* Voeg een lijntje onder de knop toe en verberg het standaard */
+.header__button::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -2px; /* Plaats het onder de knop */
+    width: 100%;
+    height: 2px;
+    background-color: #333;
+    transform: scaleX(0); /* Begin met een schaal van 0 om het te verbergen */
+    transform-origin: left;
+    transition: transform 0.3s ease-in-out; /* Voeg een animatie toe */
+}
+
+/* Voeg een animatie toe wanneer je over de knop beweegt */
+.header__button:hover::after {
+    transform: scaleX(1); /* Toon het lijntje bij hover */
 }
 
 /* Responsieve stijlen */
@@ -252,7 +271,7 @@ body{
 }
 
 .skill-card__description {
-    font-size: 2.3rem;
+    font-size: 2rem;
     font-family: sans-serif;
 }
 

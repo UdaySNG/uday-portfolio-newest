@@ -29,6 +29,11 @@ class LanguageToggle {
         this.aboutButton = document.querySelector(".header__button--about");
         this.contactButton = document.querySelector(".header__button--contact");
 
+        this.projectdescription = document.querySelector(".project__description");
+        this.projectdescription2 = document.getElementById("js--language-desc-1");
+        this.projectdescription3 = document.getElementById("js--language-desc-2");
+
+        this.viewmorebutton = document.querySelector(".view-more");
         this.setupEventListeners();
     }
 
@@ -43,12 +48,22 @@ class LanguageToggle {
             this.projectsButton.textContent = "My Projects";
             this.aboutButton.textContent = "About Me";
             this.contactButton.textContent = "Contact";
+            this.projectdescription.textContent = "Here I made a YouTube clone with the house style of the Twitch streaming platform.";
+            this.projectdescription2.textContent = "In this project I recreated the front page of popular course website Udemy in HTML&CSS and JS.";
+            this.projectdescription3.textContent = "Here I took inspiration from my favorite color website, Colorhunt so I made my own color picker.";
+            this.viewmorebutton.textContent = "View More";
+
         } else {
             this.languageToggle.textContent = "Taal";
             this.headerTitle.textContent = "Uday Singh";
             this.projectsButton.textContent = "Mijn Projecten";
             this.aboutButton.textContent = "Over Mij";
             this.contactButton.textContent = "Contact";
+            this.projectdescription.textContent = "Hier had ik een youtube clone gemaakt met de huiststyle van de Twitch streaming platform.";
+            this.projectdescription2.textContent = "In dit project had ik de voorpagina van populaire cursus website Udemy nagemaakt in html&css en js.";
+            this.projectdescription3.textContent = "Hier nam ik inspiratie van mijn favoriete kleuren website, Colorhunt dus ik had mijn eigen colorpicker gemaakt.";
+            this.viewmorebutton.textContent = "Zie Meer";
+
         }
     }
 }
